@@ -5,3 +5,10 @@ mono:
 dotnet: 2.1.502
 script:
  - dotnet restore
+deploy:
+  provider: heroku
+  api_key:
+    secure: KEY
+  app: elloworld
+  on:
+    repo: ericclifford/hello-world
