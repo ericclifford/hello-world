@@ -9,6 +9,6 @@ deploy:
   provider: heroku
   api_key:
     secure: f7ae9190-99d1-4cc2-b4bb-769a0798fd82
-  app: elloworld
+  app: worldhello-staging
   on:
     repo: ericclifford/hello-world
